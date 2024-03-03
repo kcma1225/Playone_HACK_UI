@@ -29,7 +29,7 @@ canvas = Canvas(
 
 canvas.place(x = 0, y = 0)
 image_image_1 = PhotoImage(
-    file=r'assets/frame0/image_1.png')
+    file=r'assets/login/image_1.png')
 image_1 = canvas.create_image(
     349.0,
     86.0,
@@ -46,7 +46,7 @@ canvas.create_text(
 )
 
 entry_image_1 = PhotoImage(
-    file=r'assets/frame0/entry_1.png')
+    file=r'assets/login/entry_1.png')
 entry_bg_1 = canvas.create_image(
     350.5,
     213.0,
@@ -66,7 +66,7 @@ entry_1.place(
 )
 
 entry_image_2 = PhotoImage(
-    file=r'assets/frame0/entry_2.png')
+    file=r'assets/login/entry_2.png')
 entry_bg_2 = canvas.create_image(
     350.5,
     298.0,
@@ -117,7 +117,7 @@ def remember_pw():
         r_btn = 0
 
 button_image_1 = PhotoImage(
-    file=r'assets/frame0/button_1.png')
+    file=r'assets/login/button_1.png')
 button_1 = Button(
     image=button_image_1,
     borderwidth=0,
