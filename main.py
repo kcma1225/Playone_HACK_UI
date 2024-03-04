@@ -3,7 +3,6 @@
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
-
 window = Tk()
 
 window.geometry("700x450")
